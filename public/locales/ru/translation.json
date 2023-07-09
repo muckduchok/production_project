@@ -1,5 +1,8 @@
 {
   "test": "Тест",
   "MAIN PAGE": "Главная",
-  "lang": "Ru"
+  "lang": "Ru",
+  "Page not found ": "Страницы не найдена",
+  "Refresh page": "Refresh page",
+  "Throw Error": "Throw Error"
 }

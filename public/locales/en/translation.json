@@ -1,5 +1,9 @@
 {
   "test": "test",
   "MAIN PAGE": "MAIN PAGE",
-  "lang": "En"
+  "lang": "En",
+  "Page not found ": "Page not found ",
+  "Its error": "Its error",
+  "Refresh page": "Refresh page",
+  "Throw Error": "Throw Error"
 }
