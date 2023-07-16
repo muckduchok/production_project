@@ -11,7 +11,8 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "strictNullChecks": false,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
@@ -19,5 +20,10 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": [
+    "./config/jest/setupTests.ts",
+    "./**/*.ts",
+    "./**/*.tsx"
+  ]
 }

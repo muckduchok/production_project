@@ -2,36 +2,30 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true,
+    jest: true
   },
-  extends: [
-    'standard-with-typescript',
-    'plugin:react/recommended',
-    'plugin:i18next/recommended'
-  ],
-  overrides: [
-    {
-      env: {
-        node: true,
-      },
-      files: [
-        '.eslintrc.{js,cjs}'
-      ],
-      parserOptions: {
-        sourceType: 'script'
-      }
+  extends: ['standard-with-typescript', 'plugin:react/recommended', 'plugin:i18next/recommended', 'plugin:storybook/recommended'],
+  overrides: [{
+    env: {
+      node: true
+    },
+    files: ['**/src/**/*.test.{ts,tsx}'],
+    rules: {
+      'i18next/no-literal-string': 'off'
+    },
+    rules: {
+      'i18next/no-literal-string': 'off'
+    },
+    parserOptions: {
+      sourceType: 'script'
     }
-  ],
+  }],
   parserOptions: {
     ecmaVersion: 'latest',
     project: 'tsconfig.json',
-    sourceType: 'module',
+    sourceType: 'module'
   },
-  plugins: [
-    'react',
-    '@typescript-eslint',
-    'i18next'
-  ],
+  plugins: ['react', '@typescript-eslint', 'i18next'],
   rules: {
     'import/no-unresolved': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'warn',
@@ -50,9 +44,12 @@ module.exports = {
     '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/no-misused-promises': 'off',
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
-    'i18next/no-literal-string': ['error', {markupOnly: true, ignoreAttribute: ['to']}]
+    'i18next/no-literal-string': ['error', {
+      markupOnly: true,
+      ignoreAttribute: ['to']
+    }]
   },
   globals: {
     __IS_DEV__: true
   }
-}
+};

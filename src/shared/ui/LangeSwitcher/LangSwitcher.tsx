@@ -7,7 +7,7 @@ interface LangSwitcherProps {
   className?: string
 }
 
-export const LangSwitcher = ({ className }: LangSwitcherProps) => {
+export const LangSwitcher = ({ className = '' }: LangSwitcherProps) => {
   const { t, i18n } = useTranslation()
 
   const translate = async () => {
