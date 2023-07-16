@@ -13,9 +13,6 @@ module.exports = {
     rules: {
       'i18next/no-literal-string': 'off'
     },
-    rules: {
-      'i18next/no-literal-string': 'off'
-    },
     parserOptions: {
       sourceType: 'script'
     }
@@ -46,7 +43,7 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
     'i18next/no-literal-string': ['error', {
       markupOnly: true,
-      ignoreAttribute: ['to']
+      ignoreAttribute: ['to', 'data-testid']
     }]
   },
   globals: {
