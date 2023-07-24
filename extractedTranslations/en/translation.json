@@ -1,4 +1,5 @@
 {
+  "": "",
   "ABOUT PAGE": "ABOUT PAGE",
   "About page": "About page",
   "Its error": "Its error",
@@ -6,7 +7,10 @@
   "MAIN PAGE": "",
   "Main page": "Main page",
   "Page not found ": "Page not found ",
+  "Password": "Password",
   "Refresh page": "Refresh page",
+  "Test": "Test",
   "Throw Error": "Throw Error",
+  "Username": "Username",
   "lang": ""
 }

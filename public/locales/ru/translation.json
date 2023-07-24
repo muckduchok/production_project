@@ -5,5 +5,7 @@
   "Page not found ": "Страницы не найдена",
   "Refresh page": "Refresh page",
   "Throw Error": "Throw Error",
-  "Login": "Login"
+  "Login": "Войти",
+  "Username": "Username",
+  "Password": "Password"
 }
