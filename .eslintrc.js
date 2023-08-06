@@ -47,9 +47,11 @@ module.exports = {
     'no-param-reassign': 'off',
     'react-hooks/exhaustive-deps': 'error',
     'react/display-name': 'off',
+    '@typescript-eslint/prefer-ts-expect-error': 'off',
+    '@typescript-eslint/no-dynamic-delete': 'off',
     'i18next/no-literal-string': ['error', {
       markupOnly: true,
-      ignoreAttribute: ['to', 'data-testid']
+      ignoreAttribute: ['to', 'data-testid', 'name']
     }]
   },
   globals: {
