@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Anton",
+    "lastname": "Avhutskiy",
+    "age": 24,
+    "currency": "UAH",
+    "country": "Ukraine",
+    "city": "Odesa",
+    "username": "admin",
+    "avatar": "https://pbs.twimg.com/profile_images/1453466028302811140/0i33x2BI_400x400.jpg"
+  }
 }
