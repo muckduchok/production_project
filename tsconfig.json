@@ -9,6 +9,7 @@
       "*": ["./src/*"]
     },
     "jsx": "react-jsx",
+    "strict": true,
     "allowJs": true,
     "moduleResolution": "node",
     "strictNullChecks": false,

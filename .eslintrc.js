@@ -51,10 +51,11 @@ module.exports = {
     '@typescript-eslint/no-dynamic-delete': 'off',
     'i18next/no-literal-string': ['error', {
       markupOnly: true,
-      ignoreAttribute: ['to', 'data-testid', 'name']
+      ignoreAttribute: ['to', 'data-testid', 'name', 'alt', 'label']
     }]
   },
   globals: {
-    __IS_DEV__: true
+    __IS_DEV__: true,
+    __API__: true
   }
 };

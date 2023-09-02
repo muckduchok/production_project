@@ -23,6 +23,8 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
   const dispatch = useDispatch()
 
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     Object.entries(reducers).forEach(([name, reducer]: ReducersListEntry) => {
       store.reducerManager.add(name, reducer)
       dispatch({ type: '@INIT loginForm reducer' })
@@ -30,6 +32,8 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
 
     return () => {
       if (removeAfterUnmount) {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         Object.entries(reducers).forEach(([name, reducer]: ReducersListEntry) => {
           store.reducerManager.remove(name)
           dispatch({ type: `@DESTROY ${name} reducer` })

@@ -13,5 +13,10 @@
   "Wrong password or login": "Wrong password or login",
   "Exit": "Exit",
   "Logout": "Logout",
-  "Profile page": "Profile page"
+  "Profile page": "Profile page",
+  "Error": "Error",
+  "Decline": "Decline",
+  "Save": "Save",
+  "Currency": "Currency",
+  "Country": "Country"
 }
