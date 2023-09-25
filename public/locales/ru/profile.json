@@ -8,5 +8,10 @@
   "Name": "Name",
   "City": "City",
   "Username": "Username",
-  "Avatar": "Avatar"
+  "Avatar": "Avatar",
+  "Server error": "Server error",
+  "Incorrect user data": "Incorrect user data",
+  "Incorrect country": "Incorrect country",
+  "Incorrect age": "Incorrect age",
+  "Data not found": "Data not found"
 }
